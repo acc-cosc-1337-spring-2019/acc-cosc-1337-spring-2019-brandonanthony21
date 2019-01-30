@@ -13,7 +13,9 @@ TEST_CASE("Verify Test Configuration", "verification") {
 //hours 20 hourly_rate 10 result should be 200 
 
 TEST_CASE("name assign 1 function", "[150,100,200]") {
-	//sample to guide you ---> REQUIRE(gross_pay(5, 5) == 25);
-	
-}
+    //sample to guide you ---> REQUIRE(gross_pay(5, 5) == 25);
+    REQUIRE(gross_pay(10, 15) == 150);
+    REQUIRE(gross_pay(5, 20) == 100);
+    REQUIRE(gross_pay(10, 10) == 200);
 
+}
