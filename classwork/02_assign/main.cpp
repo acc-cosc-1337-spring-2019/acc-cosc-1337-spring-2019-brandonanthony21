@@ -7,8 +7,6 @@ using std::cout;
 using std::cin;
 int main() 
 {
-    double hours;
-    double hourly_rate;
 	//create a double variable named hours
 	//create a double variable named hourly_rate
 
